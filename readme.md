@@ -43,3 +43,12 @@ The app uses [Karma](http://karma-runner.github.io/0.12/index.html) to run the t
 $ npm install
 $ npm test
 ```
+
+## Linting
+
+The app uses eslint to perform linting on sources
+
+```
+$ npm install eslint --save-dev
+$ ./node_modules/.bin/eslint js/
+```
